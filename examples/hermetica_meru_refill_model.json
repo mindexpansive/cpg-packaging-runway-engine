@@ -1,0 +1,47 @@
+{
+  "_comment": "Public reference model: Hermetica Meru Gold-Plated Magnetic Pocket Compact (50 Tablets, Dongguan) transitioning to Month 2+ barrier refill pouches.",
+  "packaging_spec": {
+    "sku_code": "HERM-MERU-COMPACT-50T",
+    "vessel_name": "Meru Gold-Plated Magnetic Pocket Compact (50 Tablets)",
+    "origin_hub": "Dongguan, Guangdong, CN",
+    "ex_factory_unit_usd": 2.70,
+    "moq_units": 2500,
+    "carton_pack_units": 100,
+    "production_days": 35,
+    "ocean_freight_days": 28,
+    "air_freight_days": 7,
+    "co_packer_fill_days": 10,
+    "lead_time_std_days": 4.5,
+    "ocean_freight_per_unit_usd": 0.22,
+    "air_freight_per_unit_usd": 1.18,
+    "duty_rate": 0.075,
+    "deposit_share": 0.30
+  },
+  "inventory_state": {
+    "usable_on_hand_units": 3100,
+    "in_transit_units": 0,
+    "velocity_window": {
+      "units_30d": 1560,
+      "units_60d": 2940,
+      "units_90d": 4140
+    },
+    "daily_demand_std": 9.5,
+    "target_order_units": 5000,
+    "service_level": 0.95
+  },
+  "refill_cohort_model": {
+    "cohort_initial_customers": 1000,
+    "starter_price_usd": 55.00,
+    "refill_price_usd": 46.75,
+    "permanent_vessel_landed_usd": 3.1225,
+    "refill_pouch_landed_usd": 0.28,
+    "formulation_fill_cogs_usd": 4.35,
+    "starter_pick_pack_ship_usd": 5.65,
+    "refill_pick_pack_ship_usd": 3.95,
+    "payment_processing_rate": 0.029,
+    "payment_fixed_fee_usd": 0.30,
+    "disposable_jar_landed_usd": 0.85,
+    "disposable_ship_usd": 5.45,
+    "monthly_retention_curve": [1.0, 0.74, 0.63, 0.56, 0.51, 0.47]
+  }
+}

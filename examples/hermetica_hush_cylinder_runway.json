@@ -1,0 +1,28 @@
+{
+  "_comment": "Public reference model: Hermetica Hush Telescoping Rigid Paperboard Cylinder + Sealed Inner Liner (20 Gummies, 0.35 mg Melatonin per Gummy).",
+  "packaging_spec": {
+    "sku_code": "HERM-HUSH-CYLINDER-20G",
+    "vessel_name": "Hush Telescoping Matte Rigid Paperboard Cylinder + Sealed Inner Liner",
+    "origin_hub": "Dongguan, Guangdong, CN",
+    "ex_factory_unit_usd": 0.59,
+    "moq_units": 10000,
+    "carton_pack_units": 200,
+    "production_days": 30,
+    "ocean_freight_days": 28,
+    "air_freight_days": 7,
+    "co_packer_fill_days": 12,
+    "lead_time_std_days": 4.0,
+    "ocean_freight_per_unit_usd": 0.14,
+    "air_freight_per_unit_usd": 0.82,
+    "duty_rate": 0.0,
+    "deposit_share": 0.30
+  },
+  "inventory_state": {
+    "usable_on_hand_units": 18400,
+    "in_transit_units": 0,
+    "daily_velocity": 185.0,
+    "daily_demand_std": 28.0,
+    "target_order_units": 20000,
+    "service_level": 0.95
+  }
+}

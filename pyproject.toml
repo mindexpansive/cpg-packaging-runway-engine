@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cpg-packaging-runway-engine"
+version = "0.1.0"
+description = "Zero-dependency Python 3 supply-chain runway solver, overseas ocean/air-bridge safety-stock calculator, and reusable hardware vessel vs. refill pouch cohort margin model for CPG founders."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Christian Gallo Delgado" }
+]
+keywords = ["cpg", "supply-chain", "packaging-design", "inventory-management", "dtc", "ecommerce"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Manufacturing",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+]
+
+[project.urls]
+Homepage = "https://christiangallodelgado.com/craft"
+Repository = "https://github.com/mindexpansive/cpg-packaging-runway-engine"
+
+[project.scripts]
+cpg-runway = "runway:main"
+
+[tool.setuptools]
+py-modules = ["runway"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
